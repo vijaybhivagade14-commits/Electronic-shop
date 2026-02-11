@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ElectroShop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <!-- <div class="logo">ElectroShop</div> -->
+     <div class="logo"><img src="images/electronic.jpg" class="img_box"></div>
+
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+    <span class="cart">Cart (<span id="cart-count">0</span>)</span>
+  </nav>
+
+  <div class="hamburger" id="hamburger">☰</div>
+</header>
+
+<!-- SIDEBAR -->
+<div class="sidebar" id="sidebar">
+  <span class="close" id="closeSidebar">✖</span>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Your Local Electronics Store</h1>
+  <p>Best gadgets at affordable prices</p>
+  <a href="#products" class="btn">View Products</a>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="products">
+  <h2>Products</h2>
+
+  <input type="text" id="search" placeholder="Search products...">
+
+  <select id="filter">
+    <option value="all">All Categories</option>
+    <option value="mobile">Mobile</option>
+    <option value="laptop">Laptop</option>
+    <option value="accessory">Accessory</option>
+  </select>
+
+  <div id="product-list" class="product-grid"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Name">
+    <small class="error"></small>
+
+    <input type="email" id="email" placeholder="Email">
+    <small class="error"></small>
+
+    <textarea id="message" placeholder="Message"></textarea>
+    <small class="error"></small>
+
+    <button type="submit">Submit</button>
+    <p id="success"></p>
+  </form>
+</section>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
