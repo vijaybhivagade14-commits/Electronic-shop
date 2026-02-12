@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 1999,
+    "image": "images/headphone1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Gaming Mouse",
+    "price": 999,
+    "image": "images/mob1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "price": 1499,
+    "image": "images/laptop2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mechanical Keyboard",
+    "price": 2499,
+    "image": "images/key1.jpg"
+  }
+]

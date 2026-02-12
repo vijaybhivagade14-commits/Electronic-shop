@@ -44,13 +44,15 @@ window.addToCart = function(id) {
   if (existingItem) {
     existingItem.quantity += 1;
   } else {
-    const product = products.find(p => p.id === id);
+    // const product = products.find(p => p.id === id);
+    const product = products.find(p => p.id == id);
+
 
     cart.push({
       id: product.id,
       name: product.name,
       price: product.price,
-      image: product.img,  // 🔥 Important mapping
+      image: product.image,  // 🔥 Important mapping
       quantity: 1
     });
   }
