@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Electronics Shop Website
 
 ## Overview
@@ -21,3 +22,4 @@ Open index.html in browser.
 ## Future Improvements
 - Checkout page
 - Backend integration
+
